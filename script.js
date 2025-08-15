@@ -4,6 +4,14 @@ const imagens = [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaokCyQBCMa_Ixq1aBaTzP6DYWbvMTNhQ5Hw&s'
 ];
 
+const cards = document.querySelectorAll('.card');
+
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    card.classList.toggle('flipped');
+  });
+});
+
 const quantidadeDeCartas = 6; // Total de cartas no jogo (pares)
 const tabuleiro = document.getElementById('tabuleiro');
 
