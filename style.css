@@ -66,3 +66,12 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.carta .verso {
+  width: 100px; /* ou o tamanho desejado */
+  height: 150px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeB9ctOlgpJeshijOxpRXDZUbnv2jqTdKVw&s');
+  background-size: cover; /* ajusta a imagem para preencher */
+  background-position: center; /* centraliza a imagem */
+  /* outras propriedades de estilo, como borda, transição, etc. */
+}
